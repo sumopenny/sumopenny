@@ -47,25 +47,9 @@
 </td>
 <td width="50%" valign="top">
 
-<h3><a href="https://github.com/sumopenny/nikki_albums">nikki_albums</a></h3>
-<p>A tool for managing Infinity Nikki game albums.</p>
-<p><code>Dart</code> · <a href="https://nikki.ranaxro.com">Live demo ↗</a></p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <h3><a href="https://github.com/sumopenny/momoinst">momoinst</a></h3>
 <p>Vue 项目（简介待补充）。</p>
 <p><code>Vue</code> · <a href="https://momoinst.vercel.app">Live demo ↗</a></p>
-
-</td>
-<td width="50%" valign="top">
-
-<h3><a href="https://github.com/sumopenny/wxinst">wxinst</a></h3>
-<p>TypeScript 项目（简介待补充）。</p>
-<p><code>TypeScript</code></p>
 
 </td>
 </tr>
