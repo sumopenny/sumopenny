@@ -1,0 +1,33 @@
+name: Refresh contribution snake
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate soft contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#d69caf&color_dots=#fffaf7,#f7e6df,#f0d0d2,#e4b1bd,#d998aa
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#f5cf9d&color_dots=#fffaf7,#f6dfcf,#edc0b5,#e3a7a5,#d88793
+
+      - name: Publish generated SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

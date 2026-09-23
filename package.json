@@ -1,0 +1,13 @@
+{
+  "name": "github-profile-sumopenny",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A soft candy Morandi GitHub profile README generator.",
+  "scripts": {
+    "render": "node scripts/render-profile.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

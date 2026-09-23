@@ -1,0 +1,109 @@
+{
+  "username": "sumopenny",
+  "displayName": "素茉penny",
+  "headline": "把灵感做成柔软、好用的小工具。",
+  "tagline": "Frontend tinkerer · cozy builder · visual problem solver",
+  "location": "China · UTC+8",
+  "status": "正在把想法做成可以被使用的小工具 ✨",
+  "links": {
+    "github": "https://github.com/sumopenny",
+    "website": "",
+    "email": ""
+  },
+  "about": [
+    "我喜欢把复杂的事情拆成清晰、好用又有一点可爱的界面。",
+    "目前主要折腾 TypeScript、Vue、Dart/Flutter，以及各种让日常工作变轻松的小工具。"
+  ],
+  "now": [
+    "把无限暖暖相关工具整理成更顺手的体验。",
+    "练习用更轻的交互和更柔和的配色表达复杂信息。",
+    "持续记录那些值得被复用的小想法。"
+  ],
+  "skills": [
+    {
+      "label": "TypeScript",
+      "logo": "typescript",
+      "color": "D6A0B0",
+      "url": "https://www.typescriptlang.org/"
+    },
+    {
+      "label": "Vue",
+      "logo": "vuedotjs",
+      "color": "9FB9A8",
+      "url": "https://vuejs.org/"
+    },
+    {
+      "label": "Dart",
+      "logo": "dart",
+      "color": "B9A7C8",
+      "url": "https://dart.dev/"
+    },
+    {
+      "label": "Flutter",
+      "logo": "flutter",
+      "color": "AFC7D5",
+      "url": "https://flutter.dev/"
+    },
+    {
+      "label": "Node.js",
+      "logo": "nodedotjs",
+      "color": "B4C29B",
+      "url": "https://nodejs.org/"
+    },
+    {
+      "label": "Git",
+      "logo": "git",
+      "color": "E7C39D",
+      "url": "https://git-scm.com/"
+    },
+    {
+      "label": "GitHub Actions",
+      "logo": "githubactions",
+      "color": "B9B1C0",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "label": "Cloudflare Pages",
+      "logo": "cloudflare",
+      "color": "D4B68F",
+      "url": "https://pages.cloudflare.com/"
+    },
+    {
+      "label": "Vercel",
+      "logo": "vercel",
+      "color": "B8B3B8",
+      "url": "https://vercel.com/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Infinity-Nikki-Album-Manager",
+      "description": "无限暖暖相册管理工具，提供网站直达与整理体验。",
+      "language": "TypeScript",
+      "url": "https://github.com/sumopenny/Infinity-Nikki-Album-Manager",
+      "homepage": "https://infinity-nikki-album-manager.pages.dev/"
+    },
+    {
+      "name": "nikki_albums",
+      "description": "A tool for managing Infinity Nikki game albums.",
+      "language": "Dart",
+      "url": "https://github.com/sumopenny/nikki_albums",
+      "homepage": "https://nikki.ranaxro.com"
+    },
+    {
+      "name": "momoinst",
+      "description": "Vue 项目（简介待补充）。",
+      "language": "Vue",
+      "url": "https://github.com/sumopenny/momoinst",
+      "homepage": "https://momoinst.vercel.app"
+    },
+    {
+      "name": "wxinst",
+      "description": "TypeScript 项目（简介待补充）。",
+      "language": "TypeScript",
+      "url": "https://github.com/sumopenny/wxinst",
+      "homepage": ""
+    }
+  ],
+  "footer": "made with soft colors, small experiments, and a lot of curiosity · 轻轻做事，慢慢变好"
+}
